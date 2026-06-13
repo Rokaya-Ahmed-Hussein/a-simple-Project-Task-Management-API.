@@ -57,31 +57,31 @@ The application uses Entity Framework Core with the **Code-First approach**, gen
 
 ## 🔐 Security & Authentication
 - User Roles & Access Control
--🔵 Employee Role (Standard Access)  
--✅ Read Access: View all projects and tasks assigned
--✅Get Project By Id: Vieby idw project 
--❌ Create: Add new tasks under existing projects
--❌ Update: Edit task details and update task status
--❌ Delete Projects: Cannot delete projects (restricted to Manager/Both only)
--❌ Delete Tasks: Allowed (can remove tasks they created)
--✅ Authentication: Register/Login using JWT token
+  🔵 Employee Role (Standard Access)
+- ✅ Read Access: View all projects and tasks assigned
+- ✅Get Project By Id: Vieby idw project
+- ❌ Create: Add new tasks under existing projects
+- ❌ Update: Edit task details and update task status
+- ❌ Delete Projects: Cannot delete projects (restricted to Manager/Both only)
+- ❌ Delete Tasks: Allowed (can remove tasks they created)
+- ✅ Authentication: Register/Login using JWT token
 
 🟠 Manager Role (Extended Access)  
--❌ Read Access: View all tasks
--✅ Create: Add new projects and tasks
--✅ Update: Edit existing projects
--✅ Delete Projects: Allowed with full control
--✅ Delete Tasks: Allowed with full control
--✅ System Management: Manage project assignments and team tasks
--✅ Authentication: Register/Login using JWT token
+- ❌ Read Access: View all tasks
+- ✅ Create: Add new projects and tasks
+- ✅ Update: Edit existing projects
+- ✅ Delete Projects: Allowed with full control
+- ✅ Delete Tasks: Allowed with full control
+- ✅ System Management: Manage project assignments and team tasks
+- ✅ Authentication: Register/Login using JWT token
 
 🟣 Both Role (Combined Access)  
--✅ Get Task By Project: View all tasks by Project id
--❌ Create: Add new tasks under existing projects
--✅ Update: Edit task details and update task status
--❌ Delete Projects: Cannot delete projects (restricted to Manager/Both only)
--❌ Delete Tasks: Allowed (can remove tasks they created)
--✅ Authentication: Register/Login using JWT token
+- ✅ Get Task By Project: View all tasks by Project id
+- ❌ Create: Add new tasks under existing projects
+- ✅ Update: Edit task details and update task status
+- ❌ Delete Projects: Cannot delete projects (restricted to Manager/Both only)
+- ❌ Delete Tasks: Allowed (can remove tasks they created)
+- ✅ Authentication: Register/Login using JWT token
 
 ---
 
