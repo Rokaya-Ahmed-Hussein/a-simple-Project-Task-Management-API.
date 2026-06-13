@@ -56,8 +56,8 @@ The application uses Entity Framework Core with the **Code-First approach**, gen
 ---
 
 ## 🔐 Security & Authentication
-- User Roles & Access Control
-  🔵 Employee Role (Standard Access)
+User Roles & Access Control
+🔵 Employee Role (Standard Access)
 - ✅ Read Access: View all projects and tasks assigned
 - ✅Get Project By Id: Vieby idw project
 - ❌ Create: Add new tasks under existing projects
