@@ -1,4 +1,4 @@
-# a simple Project & Task Management API
+# A Simple Project & Task Management API
 
 
 ## 📋 Project Overview
