@@ -27,6 +27,7 @@ The application uses Entity Framework Core with the **Code-First approach**, gen
 
 ### Clean Architecture Layers (3-Tier Architecture)
 
+```
 ┌────────────────────────────────────────────────────────┐
 │          Presentation Layer (API)                      │
 │  - Controllers (handle routing & HTTP requests)        │
@@ -47,6 +48,7 @@ The application uses Entity Framework Core with the **Code-First approach**, gen
 │  - DbContext                                            │
 │  - EF Core Migrations                                   │
 └─────────────────────────────────────────────────────────┘
+```
 
 ### Dependency Injection
 - All services and repositories are accessed via Interfaces.  
@@ -56,8 +58,8 @@ The application uses Entity Framework Core with the **Code-First approach**, gen
 ---
 
 ## 🔐 Security & Authentication
-User Roles & Access Control
-🔵 Employee Role (Standard Access)
+### User Roles & Access Control
+####🔵 Employee Role (Standard Access)
 - ✅ Read Access: View all projects and tasks assigned
 - ✅Get Project By Id: Vieby idw project
 - ❌ Create: Add new tasks under existing projects
@@ -66,7 +68,7 @@ User Roles & Access Control
 - ❌ Delete Tasks: Allowed (can remove tasks they created)
 - ✅ Authentication: Register/Login using JWT token
 
-🟠 Manager Role (Extended Access)  
+####🟠 Manager Role (Extended Access)  
 - ❌ Read Access: View all tasks
 - ✅ Create: Add new projects and tasks
 - ✅ Update: Edit existing projects
@@ -75,7 +77,7 @@ User Roles & Access Control
 - ✅ System Management: Manage project assignments and team tasks
 - ✅ Authentication: Register/Login using JWT token
 
-🟣 Both Role (Combined Access)  
+####🟣 Both Role (Combined Access)  
 - ✅ Get Task By Project: View all tasks by Project id
 - ❌ Create: Add new tasks under existing projects
 - ✅ Update: Edit task details and update task status
