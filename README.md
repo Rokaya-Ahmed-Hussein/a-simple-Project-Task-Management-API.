@@ -1,6 +1,5 @@
-# Build a simple Project & Task Management API
+# a simple Project & Task Management API
 
-# Project & Task Management API
 
 ## 📋 Project Overview
 A lightweight, secure ASP.NET Core Web API designed for managing projects and tasks.  
